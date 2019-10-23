@@ -64,7 +64,6 @@ jobs:
         <configuration>
           <packageSources>
             <clear />
-            <add key='NuGet official package source' value='https://api.nuget.org/v3/index.json' />
             <add key='dotnetfeed' value='https://dotnetfeed.blob.core.windows.net/dotnet-core/index.json' />
             <add key='local' value='${{parameters.pkgArtifactPath}}'/>
           </packageSources>
